@@ -4,4 +4,4 @@ Meninggatkan Jumlah Viewer
 
 # Demo Website
 
-https://klasifikasi-paruparu.streamlit.app/
+https://trafficapp.streamlit.app/
