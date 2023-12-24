@@ -37,7 +37,7 @@ about = kolom[2].button('About')
 
 def somet():
   options = webdriver.EdgeOptions()
-  service = webdriver.EdgeService(executable_path='msedgedriver')
+  service = webdriver.EdgeService(executable_path='./msedgedriver')
   # options = Options()
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
@@ -62,7 +62,7 @@ def somet():
 def somet1():
   
   options = webdriver.EdgeOptions()
-  service = webdriver.EdgeService(executable_path='msedgedriver')
+  service = webdriver.EdgeService(executable_path='./msedgedriver')
   # options = Options()
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
@@ -85,7 +85,7 @@ def somet1():
 def somet2():
   
   options = webdriver.EdgeOptions()
-  service = webdriver.EdgeService(executable_path='msedgedriver')
+  service = webdriver.EdgeService(executable_path='./msedgedriver')
   # options = Options()
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
@@ -110,7 +110,7 @@ def somet2():
 
 def somet3():
   options = webdriver.EdgeOptions()
-  service = webdriver.EdgeService(executable_path='msedgedriver')
+  service = webdriver.EdgeService(executable_path='./msedgedriver')
   # options = Options()
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
@@ -132,7 +132,7 @@ def somet3():
 
 def somet4():
   options = webdriver.EdgeOptions()
-  service = webdriver.EdgeService(executable_path='msedgedriver')
+  service = webdriver.EdgeService(executable_path='./msedgedriver')
   # options = Options()
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
@@ -156,7 +156,7 @@ def somet4():
 def somet5():
 
   options = webdriver.EdgeOptions()
-  service = webdriver.EdgeService(executable_path='msedgedriver')
+  service = webdriver.EdgeService(executable_path='./msedgedriver')
   # options = Options()
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
@@ -179,7 +179,7 @@ def somet5():
 
 def somet6():
   options = webdriver.EdgeOptions()
-  service = webdriver.EdgeService(executable_path='msedgedriver')
+  service = webdriver.EdgeService(executable_path='./msedgedriver')
   # options = Options()
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
