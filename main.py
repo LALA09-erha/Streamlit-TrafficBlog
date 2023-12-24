@@ -47,7 +47,7 @@ def somet():
   options.add_argument("disable-infobars")
   options.add_argument("--disable-extensions")
   options.add_argument("--disable-gpu")
-  driver = webdriver.Edge(options=options)
+  driver = webdriver.Edge(service=service,options=options)
 
   # driver = webdriver.Chrome(service=Service('./chromedrive')  ,options=options)
   driver.get(
@@ -72,7 +72,7 @@ def somet1():
   options.add_argument("disable-infobars")
   options.add_argument("--disable-extensions")
   options.add_argument("--disable-gpu")
-  driver = webdriver.Edge(options=options)
+  driver = webdriver.Edge(service=service,options=options)
 
   # driver = webdriver.Chrome(service=Service('./chromedrive')  ,options=options)
   driver.get(
@@ -95,7 +95,7 @@ def somet2():
   options.add_argument("disable-infobars")
   options.add_argument("--disable-extensions")
   options.add_argument("--disable-gpu")
-  driver = webdriver.Edge(options=options)
+  driver = webdriver.Edge(service=service,options=options)
 
   # driver = webdriver.Chrome(service=Service('./chromedrive')  ,options=options)
   driver.get(
@@ -120,7 +120,7 @@ def somet3():
   options.add_argument("disable-infobars")
   options.add_argument("--disable-extensions")
   options.add_argument("--disable-gpu")
-  driver = webdriver.Edge(options=options)
+  driver = webdriver.Edge(service=service,options=options)
 
   # driver = webdriver.Chrome(service=Service('./chromedrive')  ,options=options)
   driver.get(
@@ -142,7 +142,7 @@ def somet4():
   options.add_argument("disable-infobars")
   options.add_argument("--disable-extensions")
   options.add_argument("--disable-gpu")
-  driver = webdriver.Edge(options=options)
+  driver = webdriver.Edge(service=service,options=options)
 
   # driver = webdriver.Chrome(service=Service('./chromedrive')  ,options=options)
   driver.get(
@@ -166,7 +166,7 @@ def somet5():
   options.add_argument("disable-infobars")
   options.add_argument("--disable-extensions")
   options.add_argument("--disable-gpu")
-  driver = webdriver.Edge(options=options)
+  driver = webdriver.Edge(service=service,options=options)
 
   # driver = webdriver.Chrome(service=Service('./chromedrive')  ,options=options)
   driver.get(
@@ -189,7 +189,7 @@ def somet6():
   options.add_argument("disable-infobars")
   options.add_argument("--disable-extensions")
   options.add_argument("--disable-gpu")
-  driver = webdriver.Edge(options=options)
+  driver = webdriver.Edge(service=service,options=options)
 
   # driver = webdriver.Chrome(service=Service('./chromedrive')  ,options=options)
   driver.get(
