@@ -1,6 +1,6 @@
-# Prediksi Penyakit Paru-paru
+# Traffic Blog
 
-Menggunakan Model SVM dengan normalisasi Simple Feature Scaling
+Meninggatkan Jumlah Viewer
 
 # Demo Website
 
