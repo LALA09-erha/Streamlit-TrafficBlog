@@ -37,7 +37,7 @@ about = kolom[2].button('About')
 
 def somet():
   options = webdriver.EdgeOptions()
-  service = webdriver.EdgeService(executable_path='./msedgedriver')
+  service = webdriver.EdgeService(executable_path='msedgedriver')
   # options = Options()
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
@@ -49,7 +49,7 @@ def somet():
   options.add_argument("--disable-gpu")
   driver = webdriver.Edge(service=service,options=options)
 
-  # driver = webdriver.Chrome(service=Service('./chromedrive')  ,options=options)
+  # driver = webdriver.Chrome(service=Service('chromedrive')  ,options=options)
   driver.get(
       'https://kangtunjuk.blogspot.com/2020/08/recommend-bot-auto-role-untuk-server.html'
   )
@@ -62,7 +62,7 @@ def somet():
 def somet1():
   
   options = webdriver.EdgeOptions()
-  service = webdriver.EdgeService(executable_path='./msedgedriver')
+  service = webdriver.EdgeService(executable_path='msedgedriver')
   # options = Options()
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
@@ -74,7 +74,7 @@ def somet1():
   options.add_argument("--disable-gpu")
   driver = webdriver.Edge(service=service,options=options)
 
-  # driver = webdriver.Chrome(service=Service('./chromedrive')  ,options=options)
+  # driver = webdriver.Chrome(service=Service('chromedrive')  ,options=options)
   driver.get(
       'https://otherqoutes.blogspot.com/2023/11/sinopsis-film-lock-and-load-2023-dua.html'
   )
@@ -85,7 +85,7 @@ def somet1():
 def somet2():
   
   options = webdriver.EdgeOptions()
-  service = webdriver.EdgeService(executable_path='./msedgedriver')
+  service = webdriver.EdgeService(executable_path='msedgedriver')
   # options = Options()
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
@@ -97,7 +97,7 @@ def somet2():
   options.add_argument("--disable-gpu")
   driver = webdriver.Edge(service=service,options=options)
 
-  # driver = webdriver.Chrome(service=Service('./chromedrive')  ,options=options)
+  # driver = webdriver.Chrome(service=Service('chromedrive')  ,options=options)
   driver.get(
       'https://jadwalfilmterviral.blogspot.com/2018/05/sinopsis-apocalypse-2017-virus.html'
   )
@@ -110,7 +110,7 @@ def somet2():
 
 def somet3():
   options = webdriver.EdgeOptions()
-  service = webdriver.EdgeService(executable_path='./msedgedriver')
+  service = webdriver.EdgeService(executable_path='msedgedriver')
   # options = Options()
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
@@ -122,7 +122,7 @@ def somet3():
   options.add_argument("--disable-gpu")
   driver = webdriver.Edge(service=service,options=options)
 
-  # driver = webdriver.Chrome(service=Service('./chromedrive')  ,options=options)
+  # driver = webdriver.Chrome(service=Service('chromedrive')  ,options=options)
   driver.get(
       'https://beritahukeluarga.blogspot.com/2023/12/princess-charlotte-could-potentially.html'
   )
@@ -132,7 +132,7 @@ def somet3():
 
 def somet4():
   options = webdriver.EdgeOptions()
-  service = webdriver.EdgeService(executable_path='./msedgedriver')
+  service = webdriver.EdgeService(executable_path='msedgedriver')
   # options = Options()
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
@@ -144,7 +144,7 @@ def somet4():
   options.add_argument("--disable-gpu")
   driver = webdriver.Edge(service=service,options=options)
 
-  # driver = webdriver.Chrome(service=Service('./chromedrive')  ,options=options)
+  # driver = webdriver.Chrome(service=Service('chromedrive')  ,options=options)
   driver.get(
       'https://beritaumumdunia.blogspot.com/2023/12/leonardo-dicaprio-enjoys-date-night.html'
   )
@@ -156,7 +156,7 @@ def somet4():
 def somet5():
 
   options = webdriver.EdgeOptions()
-  service = webdriver.EdgeService(executable_path='./msedgedriver')
+  service = webdriver.EdgeService(executable_path='msedgedriver')
   # options = Options()
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
@@ -168,7 +168,7 @@ def somet5():
   options.add_argument("--disable-gpu")
   driver = webdriver.Edge(service=service,options=options)
 
-  # driver = webdriver.Chrome(service=Service('./chromedrive')  ,options=options)
+  # driver = webdriver.Chrome(service=Service('chromedrive')  ,options=options)
   driver.get(
       'https://www.newshed.my.id/2022/11/tips-when-buying-sports-cars-consider.html'
   )
@@ -179,7 +179,7 @@ def somet5():
 
 def somet6():
   options = webdriver.EdgeOptions()
-  service = webdriver.EdgeService(executable_path='./msedgedriver')
+  service = webdriver.EdgeService(executable_path='msedgedriver')
   # options = Options()
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
@@ -191,7 +191,7 @@ def somet6():
   options.add_argument("--disable-gpu")
   driver = webdriver.Edge(service=service,options=options)
 
-  # driver = webdriver.Chrome(service=Service('./chromedrive')  ,options=options)
+  # driver = webdriver.Chrome(service=Service('chromedrive')  ,options=options)
   driver.get(
       'https://moviesetiah.blogspot.com/2019/11/sinopsis-film-dead-end-2-justified-kill.html'
   )
