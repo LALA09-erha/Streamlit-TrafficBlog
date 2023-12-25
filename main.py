@@ -33,6 +33,16 @@ kolom = st.columns((2.2, 0.48, 2.7))
 home = kolom[1].button('🏠')
 about = kolom[2].button('About')
 
+# # home page
+if home==False and about==False or home==True and about==False:
+    st.markdown("<h1 style='text-align: center; color: white; margin:0 ; padding:0;'>Website Alive</h1>", unsafe_allow_html=True)
+
+
+# # about page
+if about==True and home==False:
+    st.markdown("<h2 style='text-align: center; color: white; margin:0 ; padding:0;'>:)</h2>", unsafe_allow_html=True)
+
+
 # Scraping Start 
 
 
@@ -48,7 +58,7 @@ def somet():
   options.add_argument("--disable-gpu")
   driver = webdriver.Chrome(options=options)
   driver.get(
-      'https://kangtunjuk.blogspot.com/2020/08/recommend-bot-auto-role-untuk-server.html'
+      'https://kangtunjuk.blogspot.com/2021/10/discord-merupakan-salah-satu-aplikasi.html'
   )
   print(driver.title)
 
@@ -143,7 +153,7 @@ def somet5():
   options.add_argument("--disable-gpu")
   driver = webdriver.Chrome(options=options)
   driver.get(
-      'https://www.newshed.my.id/2022/11/tips-when-buying-sports-cars-consider.html'
+      'https://www.newshed.my.id/2021/10/how-to-use-musical-tune-bot-on-discord.html'
   )
   print(driver.title)
 
@@ -162,7 +172,7 @@ def somet6():
   options.add_argument("--disable-gpu")
   driver = webdriver.Chrome(options=options)
   driver.get(
-      'https://moviesetiah.blogspot.com/2019/11/sinopsis-film-dead-end-2-justified-kill.html'
+      'https://kangtunjuk.blogspot.com/2021/01/cara-mengembalikan-file-yang-belum.html'
   )
   print(driver.title)
 
@@ -224,17 +234,8 @@ while True:
                 somet()
 
               except Exception as e:
-                print(f'error: {e}')
+                pass
 
 
 # Scraping End
 
-
-# # home page
-if home==False and about==False or home==True and about==False:
-    st.markdown("<h1 style='text-align: center; color: white; margin:0 ; padding:0;'>Website Alive</h1>", unsafe_allow_html=True)
-
-
-# # about page
-if about==True and home==False:
-    st.markdown("<h2 style='text-align: center; color: white; margin:0 ; padding:0;'>:)</h2>", unsafe_allow_html=True)
