@@ -45,14 +45,14 @@ if about==True and home==False:
 
 # Scraping Start 
 
-PROXY = "94.103.97.60:8080"
+# PROXY = "94.103.97.60:8080"
 
 def somet():
   options = Options()
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
   # options.add_extension('')
-  options.add_argument('--proxy-server=%s' % PROXY)
+  # options.add_argument('--proxy-server=%s' % PROXY)
 
   options.add_argument("start-maximized")
   options.add_argument("disable-infobars")
@@ -60,7 +60,7 @@ def somet():
   options.add_argument("--disable-gpu")
   driver = webdriver.Chrome(options=options)
   driver.get(
-      'https://kangtunjuk.blogspot.com/2021/10/discord-merupakan-salah-satu-aplikasi.html'
+      'https://moviesetiah.blogspot.com/2020/01/sinopsis-film-intensive-care-2018.html'
   )
   print(driver.title)
 
@@ -72,7 +72,7 @@ def somet1():
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
   # options.add_extension('')
-  options.add_argument('--proxy-server=%s' % PROXY)
+  # options.add_argument('--proxy-server=%s' % PROXY)
   options.add_argument("start-maximized")
   options.add_argument("disable-infobars")
   options.add_argument("--disable-extensions")
@@ -90,7 +90,7 @@ def somet2():
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
   # options.add_extension('')
-  options.add_argument('--proxy-server=%s' % PROXY)
+  # options.add_argument('--proxy-server=%s' % PROXY)
   options.add_argument("start-maximized")
   options.add_argument("disable-infobars")
   options.add_argument("--disable-extensions")
@@ -111,7 +111,7 @@ def somet3():
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
   # options.add_extension('')
-  options.add_argument('--proxy-server=%s' % PROXY)
+  # options.add_argument('--proxy-server=%s' % PROXY)
   options.add_argument("start-maximized")
   options.add_argument("disable-infobars")
   options.add_argument("--disable-extensions")
@@ -129,7 +129,7 @@ def somet4():
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
   # options.add_extension('')
-  options.add_argument('--proxy-server=%s' % PROXY)
+  # options.add_argument('--proxy-server=%s' % PROXY)
   options.add_argument("start-maximized")
   options.add_argument("disable-infobars")
   options.add_argument("--disable-extensions")
@@ -148,14 +148,14 @@ def somet5():
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
   # options.add_extension('')
-  options.add_argument('--proxy-server=%s' % PROXY)
+  # options.add_argument('--proxy-server=%s' % PROXY)
   options.add_argument("start-maximized")
   options.add_argument("disable-infobars")
   options.add_argument("--disable-extensions")
   options.add_argument("--disable-gpu")
   driver = webdriver.Chrome(options=options)
   driver.get(
-      'https://www.newshed.my.id/2021/10/how-to-use-musical-tune-bot-on-discord.html'
+      'https://otherqoutes.blogspot.com/2022/11/sinopsis-film-neon-lights-2022.html'
   )
   print(driver.title)
 
@@ -167,14 +167,14 @@ def somet6():
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
   # options.add_extension('')
-  options.add_argument('--proxy-server=%s' % PROXY)
+  # options.add_argument('--proxy-server=%s' % PROXY)
   options.add_argument("start-maximized")
   options.add_argument("disable-infobars")
   options.add_argument("--disable-extensions")
   options.add_argument("--disable-gpu")
   driver = webdriver.Chrome(options=options)
   driver.get(
-      'https://kangtunjuk.blogspot.com/2021/01/cara-mengembalikan-file-yang-belum.html'
+      'https://beritaumumdunia.blogspot.com/2023/12/blueface-sued-by-soulja-boys-baby-mama.html'
   )
   print(driver.title)
 
