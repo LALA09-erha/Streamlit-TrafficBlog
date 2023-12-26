@@ -45,12 +45,14 @@ if about==True and home==False:
 
 # Scraping Start 
 
+PROXY = "94.103.97.60:8080"
 
 def somet():
   options = Options()
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
   # options.add_extension('')
+  options.add_argument('--proxy-server=%s' % PROXY)
 
   options.add_argument("start-maximized")
   options.add_argument("disable-infobars")
@@ -70,7 +72,7 @@ def somet1():
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
   # options.add_extension('')
-
+  options.add_argument('--proxy-server=%s' % PROXY)
   options.add_argument("start-maximized")
   options.add_argument("disable-infobars")
   options.add_argument("--disable-extensions")
@@ -88,7 +90,7 @@ def somet2():
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
   # options.add_extension('')
-
+  options.add_argument('--proxy-server=%s' % PROXY)
   options.add_argument("start-maximized")
   options.add_argument("disable-infobars")
   options.add_argument("--disable-extensions")
@@ -109,7 +111,7 @@ def somet3():
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
   # options.add_extension('')
-
+  options.add_argument('--proxy-server=%s' % PROXY)
   options.add_argument("start-maximized")
   options.add_argument("disable-infobars")
   options.add_argument("--disable-extensions")
@@ -127,7 +129,7 @@ def somet4():
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
   # options.add_extension('')
-
+  options.add_argument('--proxy-server=%s' % PROXY)
   options.add_argument("start-maximized")
   options.add_argument("disable-infobars")
   options.add_argument("--disable-extensions")
@@ -146,7 +148,7 @@ def somet5():
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
   # options.add_extension('')
-
+  options.add_argument('--proxy-server=%s' % PROXY)
   options.add_argument("start-maximized")
   options.add_argument("disable-infobars")
   options.add_argument("--disable-extensions")
@@ -165,7 +167,7 @@ def somet6():
   options.add_argument('--no-sandbox')
   options.add_argument('--headless')
   # options.add_extension('')
-
+  options.add_argument('--proxy-server=%s' % PROXY)
   options.add_argument("start-maximized")
   options.add_argument("disable-infobars")
   options.add_argument("--disable-extensions")
